@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Refresh Button Test</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .test-btn {
+        background: #fe2c55;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 10px 0;
+      }
+      .status {
+        margin: 10px 0;
+        padding: 10px;
+        background: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Refresh Button Test</h1>
+
+    <button class="test-btn" onclick="testRefresh()">Test Refresh API</button>
+    <button class="test-btn" onclick="testStatus()">Test Status API</button>
+    <button class="test-btn" onclick="testExport()">Test Export API</button>
+
+    <div id="status" class="status">Click a button to test...</div>
+
+    <script>
+      async function testRefresh() {
+        const statusDiv = document.getElementById("status");
+        statusDiv.innerHTML = "Testing refresh API...";
+
+        try {
+          const response = await fetch("/api/refresh", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+          });
+
+          const data = await response.json();
+          statusDiv.innerHTML = `Refresh API Response: ${JSON.stringify(
+            data,
+            null,
+            2
+          )}`;
+        } catch (error) {
+          statusDiv.innerHTML = `Error: ${error.message}`;
+        }
+      }
+
+      async function testStatus() {
+        const statusDiv = document.getElementById("status");
+        statusDiv.innerHTML = "Testing status API...";
+
+        try {
+          const response = await fetch("/api/status");
+          const data = await response.json();
+          statusDiv.innerHTML = `Status API Response: ${JSON.stringify(
+            data,
+            null,
+            2
+          )}`;
+        } catch (error) {
+          statusDiv.innerHTML = `Error: ${error.message}`;
+        }
+      }
+
+      async function testExport() {
+        const statusDiv = document.getElementById("status");
+        statusDiv.innerHTML = "Testing export API...";
+
+        try {
+          const response = await fetch("/api/export", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+          });
+
+          const data = await response.json();
+          statusDiv.innerHTML = `Export API Response: ${JSON.stringify(
+            data,
+            null,
+            2
+          )}`;
+        } catch (error) {
+          statusDiv.innerHTML = `Error: ${error.message}`;
+        }
+      }
+    </script>
+  </body>
+</html>

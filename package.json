@@ -1,0 +1,20 @@
+{
+  "name": "tiktok-stories",
+  "version": "1.0.0",
+  "description": "TikTok analytics dashboard",
+  "main": "enrich_video_data.js",
+  "scripts": {
+    "enrich": "node enrich_video_data.js"
+  },
+  "dependencies": {
+    "@tobyg74/tiktok-api-dl": "^1.2.3",
+    "sqlite3": "^5.1.6"
+  },
+  "keywords": [
+    "tiktok",
+    "analytics",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT"
+}

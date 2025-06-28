@@ -1,25 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tiktok Stories</title>
+    <title>TikTok Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <h1 id="greeting">Tiktok Stories</h1>
-      <div class="categories">
-        <button class="category-button">All</button>
-        <button class="category-button">Trending</button>
-        <button class="category-button">Drama</button>
-        <button class="category-button">Culture</button>
-        <button class="category-button">Chaos</button>
-      </div>
-      <div class="stories"></div>
+    <div class="dashboard-header">
+      <h1>what's trending</h1>
+      <button id="refresh-btn" class="refresh-button">
+        <span class="refresh-icon">🔄</span>
+        <span class="refresh-text">Refresh Data</span>
+      </button>
     </div>
 
-    <script type="module" src="fetch-wrapper.js"></script>
-    <script type="module" src="mock-data.js"></script>
+    <div id="loading-overlay" class="loading-overlay hidden">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <p>Scraping TikTok videos...</p>
+        <p class="loading-status">Initializing...</p>
+      </div>
+    </div>
+
+    <div class="sections">
+      <div class="section" id="recent-videos"></div>
+      <div class="section" id="stats"></div>
+      <div class="section" id="hashtags"></div>
+      <div class="section tall" id="top-comments"></div>
+    </div>
   </body>
+  <script src="dashboard.js" type="module"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 </html>
