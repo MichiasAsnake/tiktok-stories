@@ -305,11 +305,11 @@ class TikTokDatabase:
             all_comments = [row[0] for row in cursor.fetchall()]
             conn.close()
 
-            # More reasonable stopwords - only the most common function words
+            # Moderate stopwords - more than essential but less than original
             stopwords = set([
                 'the', 'and', 'for', 'that', 'with', 'this', 'you', 'your', 'are', 'was', 'but', 'not', 'have', 'has',
                 'just', 'like', 'get', 'got', 'all', 'out', 'too', 'can', 'she', 'him', 'her', 'his', 'our', 'they',
-                'from', 'who', 'had', 'did', 'its', 'i', 'me', 'my', 'we', 'he', 'it', 'to', 'of', 'in', 'on', 'is', 'a', 'an', 'at', 'as', 'so', 'be', 'by', 'or', 'if', 'do', 'no', 'yes', 'up', 'down', 'off', 'this', 'that', 'these', 'those', 'their', 'them', 'then', 'than', 'will', 'would', 'should', 'could', 'about', 'over', 'under', 'again', 'when', 'where', 'why', 'how', 'what', 'which', 'because', 'while', 'were', 'been', 'am', 'im', 'u', 'ur', 'isnt', 'dont', 'doesnt', 'cant', 'wont', 'youre', 'youve', 'youll', 'youd', 'hes', 'shes', 'theyre', 'weve', "we're", 'ive', 'ill', 'id', 'didnt', 'wasnt', 'arent', 'havent', 'hasnt', 'hadnt', 'couldnt', 'shouldnt', 'wouldnt', 'oh', 'ok', 'okay', 'yeah', 'nah', 'huh', 'hmm', 'lol', 'lmao', 'omg', 'pls', 'please', 'thanks', 'thank', 'welcome', 'hi', 'hey', 'yo', 'sup', 'bye', 'goodbye', 'see', 'ya', 'later', 'soon', 'now', 'then', 'never', 'always', 'sometimes', 'often', 'usually', 'rarely', 'seldom', 'once', 'twice', 'first', 'last', 'next', 'new', 'old', 'young', 'big', 'small', 'large', 'little', 'long', 'short', 'high', 'low', 'early', 'late', 'best', 'worst', 'better', 'worse', 'same', 'different', 'other', 'another', 'more', 'most', 'less', 'least', 'many', 'much', 'few', 'several', 'some', 'any', 'every', 'each', 'either', 'neither', 'both', 'all', 'none', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'
+                'from', 'who', 'had', 'did', 'its', 'i', 'me', 'my', 'we', 'he', 'it', 'to', 'of', 'in', 'on', 'is', 'a', 'an', 'at', 'as', 'so', 'be', 'by', 'or', 'if', 'do', 'no', 'yes', 'up', 'down', 'off', 'this', 'that', 'these', 'those', 'their', 'them', 'then', 'than', 'will', 'would', 'should', 'could', 'about', 'over', 'under', 'again', 'when', 'where', 'why', 'how', 'what', 'which', 'because', 'while', 'were', 'been', 'am', 'im', 'u', 'ur', 'isnt', 'dont', 'doesnt', 'cant', 'wont', 'youre', 'youve', 'youll', 'youd', 'hes', 'shes', 'theyre', 'weve', "we're", 'ive', 'ill', 'id', 'didnt', 'wasnt', 'arent', 'havent', 'hasnt', 'hadnt', 'couldnt', 'shouldnt', 'wouldnt', 'oh', 'ok', 'okay', 'yeah', 'nah', 'huh', 'hmm', 'lol', 'lmao', 'omg', 'pls', 'please', 'thanks', 'thank', 'welcome', 'hi', 'hey', 'yo', 'sup', 'bye', 'goodbye', 'see', 'ya', 'later', 'soon', 'now', 'then', 'never', 'always', 'sometimes', 'often', 'usually', 'rarely', 'seldom', 'once', 'twice', 'first', 'last', 'next', 'new', 'old', 'young', 'big', 'small', 'large', 'little', 'long', 'short', 'high', 'low', 'early', 'late', 'best', 'worst', 'better', 'worse', 'same', 'different', 'other', 'another', 'more', 'most', 'less', 'least', 'many', 'much', 'few', 'several', 'some', 'any', 'every', 'each'
             ])
 
             def clean_text(text):
@@ -324,44 +324,44 @@ class TikTokDatabase:
                 return [' '.join(words[i:i+n]) for i in range(len(words)-n+1)]
 
             def is_quality_phrase(phrase):
-                """Check if phrase is meaningful"""
+                """Check if phrase is meaningful - moderate criteria"""
                 words = phrase.split()
-                # Filter out phrases that are too repetitive
-                if len(set(words)) < len(words) * 0.7:  # At least 70% unique words
+                # Filter out phrases that are too repetitive - moderate threshold
+                if len(set(words)) < len(words) * 0.6:  # At least 60% unique words
                     return False
-                # Filter out very short words in longer phrases
+                # Filter out very short words in longer phrases - moderate criteria
                 if len(words) > 2:
                     short_words = sum(1 for w in words if len(w) < 3)
-                    if short_words > len(words) * 0.5:  # More than 50% short words
+                    if short_words > len(words) * 0.6:  # More than 60% short words
                         return False
                 return True
 
             phrase_counter = Counter()
             for comment in all_comments:
-                if not comment or len(comment.strip()) < 5:  # Skip very short comments
+                if not comment or len(comment.strip()) < 4:  # Moderate minimum comment length
                     continue
                     
                 cleaned = clean_text(comment)
-                words = [w for w in cleaned.split() if w not in stopwords and len(w) > 1]  # Reduced min length to 2
+                words = [w for w in cleaned.split() if w not in stopwords and len(w) > 1]  # Keep min length at 2
                 
                 if len(words) < 2:  # Skip comments with too few words
                     continue
                 
-                for n in range(2, 6):  # Extended to 2-5 word phrases
+                for n in range(2, 5):  # 2-4 word phrases
                     ngrams = get_ngrams(words, n)
                     for ng in ngrams:
                         if len(ng.split()) == n and is_quality_phrase(ng):
                             phrase_counter[ng] += 1
 
             # Get more phrases and then filter for quality
-            top_phrases = phrase_counter.most_common(limit * 2)  # Get more candidates
+            top_phrases = phrase_counter.most_common(limit * 2)  # Moderate number of candidates
             
-            # Filter out very similar phrases and low-quality ones
+            # Filter out very similar phrases and low-quality ones - moderate filtering
             filtered_phrases = []
             seen_phrases = set()
             
             for phrase, count in top_phrases:
-                if count < 3:  # Minimum frequency threshold
+                if count < 2:  # Keep lower minimum frequency threshold
                     continue
                     
                 # Check for duplicates (case-insensitive)
@@ -369,12 +369,14 @@ class TikTokDatabase:
                 if phrase_lower in seen_phrases:
                     continue
                     
-                # Check for very similar phrases (one is substring of another)
+                # Check for very similar phrases - moderate substring filtering
                 is_duplicate = False
                 for existing_phrase, _ in filtered_phrases:
                     if phrase in existing_phrase or existing_phrase in phrase:
-                        is_duplicate = True
-                        break
+                        # Only filter if one is significantly longer than the other
+                        if abs(len(phrase.split()) - len(existing_phrase.split())) <= 1:
+                            is_duplicate = True
+                            break
                 
                 if not is_duplicate:
                     filtered_phrases.append((phrase, count))

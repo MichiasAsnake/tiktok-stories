@@ -2,19 +2,59 @@
 let isRefreshing = false;
 let statusCheckInterval = null;
 
+// Number formatting function
+function formatNumber(num) {
+  if (num >= 1000000) {
+    return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+  } else if (num >= 1000) {
+    return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
+  } else {
+    return num.toLocaleString();
+  }
+}
+
+// Update timestamp function
+function updateTimestamp() {
+  const now = new Date();
+  const dateString = now.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+  });
+  const timeString = now.toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  });
+  document.getElementById(
+    "timestamp"
+  ).textContent = `${dateString} ${timeString}`;
+}
+
 // Initialize the dashboard
 function loadDashboard() {
+  updateTimestamp(); // Update timestamp when dashboard loads
+
   fetch("dashboard_data.json")
     .then((r) => r.json())
     .then((data) => {
       document.getElementById("stats").innerHTML = `
-        <h3>Stats</h3>
+            <h3><img src="icons/top stats.svg" width="25" height="25" style="margin-right: 8px; vertical-align: middle;" alt="Top Stats">Stats</h3>
         <ul class="stats-list">
-            <li class="stat-total-videos">Total Videos: ${data.stats.total_videos}</li>
-            <li class="stat-total-comments">Total Comments: ${data.stats.total_comments}</li>
-            <li class="stat-total-hashtags">Total Hashtags: ${data.stats.total_hashtags}</li>
-            <li class="stat-avg-likes">Avg Likes/Video: ${data.stats.avg_likes_per_video}</li>
-            <li class="stat-avg-comments">Avg Comments/Video: ${data.stats.avg_comments_per_video}</li>
+            <li class="stat-total-videos">Total Videos: <span class="stats-number">${formatNumber(
+              data.stats.total_videos
+            )}</span></li>
+            <li class="stat-total-comments">Total Comments: <span class="stats-number">${formatNumber(
+              data.stats.total_comments
+            )}</span></li>
+            <li class="stat-total-hashtags">Total Hashtags: <span class="stats-number">${formatNumber(
+              data.stats.total_hashtags
+            )}</span></li>
+            <li class="stat-avg-likes">Avg Likes/Video: <span class="stats-number">${formatNumber(
+              Math.round(data.stats.avg_likes_per_video)
+            )}</span></li>
+            <li class="stat-avg-comments">Avg Comments/Video: <span class="stats-number">${formatNumber(
+              Math.round(data.stats.avg_comments_per_video)
+            )}</span></li>
         </ul>
     `;
 
@@ -22,14 +62,18 @@ function loadDashboard() {
       const phrases = data.top_phrases || [];
 
       document.getElementById("hashtags").innerHTML = `
-        <h3>Top Phrases</h3>
+        <h3><img src="icons/top phrases.svg" width="25" height="25" style="margin-right: 8px; vertical-align: middle;" alt="Top Phrases">Top Phrases</h3>
         <div class="phrases-container">
           <div class="phrases-scroll">
             <div class="phrases-wrapper">
               ${phrases
                 .map(
                   (p) =>
-                    `<button class="phrase-button">"${p.phrase}" (${p.count})</button>`
+                    `<button class="phrase-button"><span class="phrase-text">"${
+                      p.phrase
+                    }"</span> <span class="phrase-count">(${formatNumber(
+                      p.count
+                    )})</span></button>`
                 )
                 .join("")}
             </div>
@@ -37,19 +81,26 @@ function loadDashboard() {
         </div>
     `;
       document.getElementById("top-comments").innerHTML = `
-        <h3>Top Comments</h3>
+        <h3><img src="icons/top comments.svg" width="25" height="25" style="margin-right: 8px; vertical-align: middle;" alt="Top Comments">Top Comments</h3>
         <ul class="comments-list">
             ${data.top_comments
               .map(
                 (c) =>
-                  `<div class="comment-item"> <p>"${c.text}"</p><small>by ${c.author} (${c.likes_count} likes)</small></div>`
+                  `<div class="comment-item"> <p>"${
+                    c.text
+                  }"</p><small>by <span class="comment-author">${
+                    c.author
+                  }</span> <span class="comment-likes">(${formatNumber(
+                    c.likes_count
+                  )} likes)</span></small></div>`
               )
               .join("")}
         </ul>
     `;
       document.getElementById("recent-videos").innerHTML = `
-        <h3>Recent Videos</h3>
-        <div class="videos-list">
+        <h3><img src="icons/recent videos.svg" width="25" height="25" style="margin-right: 8px; vertical-align: middle;" alt="Recent Videos">Recent Videos</h3>
+        <div class="videos-scroll-container">
+          <div class="videos-list">
             ${data.recent_videos
               .map((v) => {
                 const videoUrl = `https://www.tiktok.com/@${v.author}/video/${v.video_id}`;
@@ -82,12 +133,12 @@ function loadDashboard() {
                                 <span class="author-name">@${v.author}</span>
                             </div>
                             <div class="video-stats">
-                                <span class="likes">❤️ ${(
-                                  v.likes_count / 1000
-                                ).toFixed(1)}K</span>
-                                <span class="comments">💬 ${(
-                                  v.comment_count / 1000
-                                ).toFixed(1)}K</span>
+                                <span class="likes">❤️ ${formatNumber(
+                                  v.likes_count
+                                )}</span>
+                                <span class="comments">💬 ${formatNumber(
+                                  v.comment_count
+                                )}</span>
                             </div>
                         </div>
                     </div>
@@ -126,18 +177,19 @@ function loadDashboard() {
                                 <span class="author-name">@${v.author}</span>
                             </div>
                             <div class="video-stats">
-                                <span class="likes">❤️ ${(
-                                  v.likes_count / 1000
-                                ).toFixed(1)}K</span>
-                                <span class="comments">💬 ${(
-                                  v.comment_count / 1000
-                                ).toFixed(1)}K</span>
+                                <span class="likes">❤️ ${formatNumber(
+                                  v.likes_count
+                                )}</span>
+                                <span class="comments">💬 ${formatNumber(
+                                  v.comment_count
+                                )}</span>
                             </div>
                         </div>
                     </div>
                   </a>`;
               })
               .join("")}
+          </div>
         </div>
     `;
     })

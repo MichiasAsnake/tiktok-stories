@@ -1,23 +1,38 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("fonts/Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("fonts/Satoshi-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("fonts/Satoshi-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
 body {
   font-family: "Geist Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-code,
-pre,
-.mono {
-  font-family: "Geist Mono", monospace;
-}
-
 h1 {
-  font-family: "Geist Mono", monospace;
+  font-family: "Geist Sans", Arial, sans-serif;
   font-weight: 500;
 }
 
 h2 {
   font-family: "Geist Sans", Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 h3 {
@@ -37,7 +52,24 @@ h3 {
 .dashboard-header h1 {
   margin: 0;
   font-size: 1.8em;
-  color: #333;
+  color: #ff0050;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.last-updated {
+  font-family: "Geist Mono", monospace;
+  font-size: 0.75em;
+  color: #b3b3b3;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.globe-icon {
+  color: #b3b3b3;
+  opacity: 0.7;
 }
 
 .sections {
@@ -63,6 +95,35 @@ ul.comments-list {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #c1c1c1 transparent;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.2) 2%,
+    black 5%,
+    black 95%,
+    rgba(0, 0, 0, 0.2) 98%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.2) 2%,
+    black 5%,
+    black 95%,
+    rgba(0, 0, 0, 0.2) 98%,
+    transparent 100%
+  );
+}
+
+.comment-likes {
+  color: #b3b3b3;
+  font-family: "Geist Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.comment-author {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-weight: 500;
 }
 
 #top-comments .comment-item {
@@ -84,7 +145,10 @@ ul.comments-list {
   flex-shrink: 0;
 }
 .comment-item p {
+  font-size: 0.9em;
   margin-top: 1px;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-weight: 500;
 }
 
 .section.tall,
@@ -95,6 +159,17 @@ ul.comments-list {
 }
 
 /* --- Phrases --- */
+.phrase-count {
+  font-family: "Geist Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: #b3b3b3;
+}
+
+.phrase-text {
+  font-family: "Satoshi", Arial, sans-serif;
+  font-weight: 500;
+  padding-right: 2px;
+}
 
 /* --- Stats --- */
 .stats-list {
@@ -143,7 +218,6 @@ ul.comments-list {
 }
 
 .stats-list li {
-  background: #f9f9f9;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 18px 12px;
@@ -151,12 +225,18 @@ ul.comments-list {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Geist Sans", Arial, sans-serif;
-  font-size: 0.9em;
+  font-family: "Satoshi", Arial, sans-serif;
   font-weight: 500;
+  font-size: 0.9em;
+  color: #333;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
   transition: box-shadow 0.2s;
   margin-bottom: 0; /* Remove extra margin for grid */
+}
+
+.stats-number {
+  color: #b3b3b3;
+  padding-left: 5px;
 }
 
 .stats-list li:hover {
@@ -273,14 +353,22 @@ ul.hashtags-list {
 .phrase-button {
   text-align: left;
   padding: 8px 12px;
-  background: #f3f4f6;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   font-size: 0.875rem;
   white-space: nowrap;
   color: #374151;
-  font-family: inherit;
+  font-family: "Geist Sans", Arial, sans-serif;
   margin: 0;
+  transition: box-shadow 0.2s;
+}
+
+button.phrase-button {
+  background: transparent;
+}
+
+.phrase-button:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 /* --- Videos --- */
@@ -288,6 +376,12 @@ ul.hashtags-list {
   overflow: hidden;
   height: 420px;
   margin: 0;
+}
+
+.videos-scroll-container {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
 }
 
 .videos-list {
@@ -315,7 +409,6 @@ ul.hashtags-list {
 }
 
 .video-item {
-  border: 2px solid #ccc;
   border-radius: 16px;
   height: 350px;
   aspect-ratio: 9/16;
@@ -405,9 +498,10 @@ ul.hashtags-list {
 
 .author-name {
   font-size: 0.85em;
+  font-family: "Satoshi", Arial, sans-serif;
   font-weight: 600;
   color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.9);
 }
 
 .video-stats {
@@ -418,6 +512,7 @@ ul.hashtags-list {
   color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
+
 span.likes {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -497,7 +592,8 @@ span.comments {
 .header h2 {
   margin: 0;
   font-size: 2rem;
-  font-weight: 600;
+  font-family: "Geist Sans", Arial, sans-serif;
+  font-weight: 700;
 }
 
 .refresh-button {
@@ -598,4 +694,17 @@ span.comments {
   font-size: 0.9rem !important;
   color: #666 !important;
   font-style: italic;
+}
+
+.comment-item p,
+.comment-item .small {
+  font-family: "Geist Sans", Arial, sans-serif;
+  font-size: 0.85em;
+}
+
+.video-item .video-stats,
+.video-item .author-name,
+.video-item .small {
+  font-family: "Geist Sans", Arial, sans-serif;
+  font-size: 0.85em;
 }
