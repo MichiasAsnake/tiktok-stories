@@ -10,12 +10,17 @@ pre,
   font-family: "Geist Mono", monospace;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
+  font-family: "Geist Mono", monospace;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Geist Sans", Arial, sans-serif;
+  font-weight: 100;
+}
+
+h3 {
   font-family: "Geist Sans", Arial, sans-serif;
   font-weight: 500;
 }
@@ -25,14 +30,13 @@ h6 {
   justify-content: space-between;
   align-items: center;
   max-width: 1100px;
-  margin: 20px auto 0 auto;
+  margin: 15px auto 0 auto;
   padding: 0 20px;
 }
 
 .dashboard-header h1 {
   margin: 0;
   font-size: 1.8em;
-  font-weight: 600;
   color: #333;
 }
 
@@ -317,8 +321,8 @@ ul.hashtags-list {
   aspect-ratio: 9/16;
   width: auto;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.12);
-  background: #181818;
-  margin-bottom: 10px;
+  background: transparent;
+  margin-bottom: 0;
   flex-shrink: 0;
   overflow: hidden;
   display: flex;
@@ -332,22 +336,20 @@ ul.hashtags-list {
 .video-preview {
   flex: 1;
   width: 100%;
-  background: #000;
   border-radius: 16px 16px 0 0;
-  overflow: hidden;
   position: relative;
 }
 
 .video-cover {
   width: 100%;
-  height: 100%;
+  height: 125%;
   object-fit: cover;
   border-radius: 16px 16px 0 0;
   transition: transform 0.3s ease;
 }
 
 .video-item-link:hover .video-cover {
-  transform: scale(1.05);
+  transform: scale(1.08);
 }
 
 .play-overlay {
@@ -379,10 +381,11 @@ ul.hashtags-list {
 }
 
 .video-info {
-  background: rgba(0, 0, 0, 0.8);
-  padding: 12px;
+  padding: 0 10px;
   border-radius: 0 0 16px 16px;
   color: #fff;
+  background: transparent;
+  z-index: 100;
 }
 
 .author-info {
@@ -412,7 +415,14 @@ ul.hashtags-list {
   gap: 12px;
   margin-bottom: 8px;
   font-size: 0.75em;
-  color: #ccc;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+span.likes {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+span.comments {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
 }
 
 .section {
