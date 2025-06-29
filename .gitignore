@@ -96,9 +96,6 @@ jspm_packages/
 .env.test.local
 .env.production.local
 
-# Data files with sensitive information
-dashboard_data.json
-
 # Temporary files
 *.tmp
-*.temp 
+*.temp
