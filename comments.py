@@ -34,7 +34,7 @@ async def get_trending_data():
         print("Session created successfully!")
         
         # Get trending videos
-        trending_videos = api.trending.videos(count=10)   # Start with 30 videos
+        trending_videos = api.trending.videos(count=20)   # Start with 30 videos
         print("Type of trending_videos:", type(trending_videos))
         print("Trending videos object:", trending_videos)
         
