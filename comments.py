@@ -110,7 +110,7 @@ async def get_trending_data():
                     'video_url': video.url,
                     'author': author_dict.get('uniqueId') or author_dict.get('nickname'),
                     'author_avatar_medium': author_dict.get('avatarMedium'),
-                    'dynamic_cover': video_dict.get('video', {}).get('dynamicCover'),
+                    'dynamic_cover': video_dict.get('video', {}).get('cover'),
                     'cover': video_dict.get('video', {}).get('cover'),
                     'stats': video.stats,
                     'create_time': str(video.create_time) if video.create_time else None
