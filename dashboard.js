@@ -97,98 +97,54 @@ function loadDashboard() {
               .join("")}
         </ul>
     `;
+      // Helper function to render a video card
+      const renderVideoCard = (v) => {
+        const videoUrl = `https://www.tiktok.com/@${v.author}/video/${v.video_id}`;
+
+        // Use local cached images first, then fall back to CDN URLs
+        const profilePhotoUrl =
+          v.author_avatar_local ||
+          v.author_avatar_medium ||
+          `https://p16-sign-va.tiktokcdn.com/aweme/100x100/${v.author}.jpeg`;
+
+        // Use local cached cover first, then fall back to CDN URLs
+        const videoCoverUrl =
+          v.cover_local ||
+          v.dynamic_cover ||
+          v.cover ||
+          `https://p16-sign-va.tiktokcdn.com/obj/aweme/100x100/${v.video_id}.jpeg`;
+
+        return `
+          <a href="${videoUrl}" target="_blank" class="video-item-link">
+            <div class="video-item">
+                <div class="video-preview">
+                    <img src="${videoCoverUrl}" alt="Video preview" class="video-cover" onerror="this.style.display='none'">
+                    <div class="play-overlay">
+                        <span class="play-icon">▶️</span>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="author-info">
+                        <img src="${profilePhotoUrl}" alt="${v.author}" class="profile-photo" onerror="this.style.display='none'">
+                        <span class="author-name">@${v.author}</span>
+                    </div>
+                    <div class="video-stats">
+                        <span class="likes">❤️ ${formatNumber(v.likes_count)}</span>
+                        <span class="comments">💬 ${formatNumber(v.comment_count)}</span>
+                    </div>
+                </div>
+            </div>
+          </a>`;
+      };
+
+      const videosHtml = data.recent_videos.map(renderVideoCard).join("");
+
       document.getElementById("recent-videos").innerHTML = `
         <h3><img src="icons/recent videos.svg" width="25" height="25" style="margin-right: 8px; vertical-align: middle;" alt="Recent Videos">Recent Videos</h3>
         <div class="videos-scroll-container">
           <div class="videos-list">
-            ${data.recent_videos
-              .map((v) => {
-                const videoUrl = `https://www.tiktok.com/@${v.author}/video/${v.video_id}`;
-
-                // Better fallback logic for profile photos using correct field name
-                const profilePhotoUrl =
-                  v.author_avatar_medium ||
-                  `https://p16-sign-va.tiktokcdn.com/aweme/100x100/${v.author}.jpeg`;
-
-                // Better fallback logic for video covers using correct field names
-                const videoCoverUrl =
-                  v.dynamic_cover ||
-                  v.cover ||
-                  `https://p16-sign-va.tiktokcdn.com/obj/aweme/100x100/${v.video_id}.jpeg`;
-
-                return `
-                  <a href="${videoUrl}" target="_blank" class="video-item-link">
-                    <div class="video-item">
-                        <div class="video-preview">
-                            <img src="${videoCoverUrl}" alt="Video preview" class="video-cover" onerror="this.style.display='none'">
-                            <div class="play-overlay">
-                                <span class="play-icon">▶️</span>
-                            </div>
-                        </div>
-                        <div class="video-info">
-                            <div class="author-info">
-                                <img src="${profilePhotoUrl}" alt="${
-                  v.author
-                }" class="profile-photo" onerror="this.style.display='none'">
-                                <span class="author-name">@${v.author}</span>
-                            </div>
-                            <div class="video-stats">
-                                <span class="likes">❤️ ${formatNumber(
-                                  v.likes_count
-                                )}</span>
-                                <span class="comments">💬 ${formatNumber(
-                                  v.comment_count
-                                )}</span>
-                            </div>
-                        </div>
-                    </div>
-                  </a>`;
-              })
-              .join("")}
-            ${data.recent_videos
-              .map((v) => {
-                const videoUrl = `https://www.tiktok.com/@${v.author}/video/${v.video_id}`;
-
-                // Better fallback logic for profile photos using correct field name
-                const profilePhotoUrl =
-                  v.author_avatar_medium ||
-                  `https://p16-sign-va.tiktokcdn.com/aweme/100x100/${v.author}.jpeg`;
-
-                // Better fallback logic for video covers using correct field names
-                const videoCoverUrl =
-                  v.dynamic_cover ||
-                  v.cover ||
-                  `https://p16-sign-va.tiktokcdn.com/obj/aweme/100x100/${v.video_id}.jpeg`;
-
-                return `
-                  <a href="${videoUrl}" target="_blank" class="video-item-link">
-                    <div class="video-item">
-                        <div class="video-preview">
-                            <img src="${videoCoverUrl}" alt="Video preview" class="video-cover" onerror="this.style.display='none'">
-                            <div class="play-overlay">
-                                <span class="play-icon">▶️</span>
-                            </div>
-                        </div>
-                        <div class="video-info">
-                            <div class="author-info">
-                                <img src="${profilePhotoUrl}" alt="${
-                  v.author
-                }" class="profile-photo" onerror="this.style.display='none'">
-                                <span class="author-name">@${v.author}</span>
-                            </div>
-                            <div class="video-stats">
-                                <span class="likes">❤️ ${formatNumber(
-                                  v.likes_count
-                                )}</span>
-                                <span class="comments">💬 ${formatNumber(
-                                  v.comment_count
-                                )}</span>
-                            </div>
-                        </div>
-                    </div>
-                  </a>`;
-              })
-              .join("")}
+            ${videosHtml}
+            ${videosHtml}
           </div>
         </div>
     `;

@@ -1,377 +1,388 @@
 {
   "stats": {
-    "total_videos": 309,
-    "total_comments": 6121,
-    "total_hashtags": 1296,
-    "avg_likes_per_video": 1871429.41,
-    "avg_comments_per_video": 10788.51
+    "total_videos": 27,
+    "total_comments": 491,
+    "total_hashtags": 115,
+    "avg_likes_per_video": 2114944.44,
+    "avg_comments_per_video": 11463.37,
+    "last_updated": "2026-02-07 20:27:18"
   },
   "hashtags": [
     {
       "hashtag": "fyp",
-      "count": 85
+      "count": 5
     },
     {
-      "hashtag": "foryou",
-      "count": 23
-    },
-    {
-      "hashtag": "viral",
-      "count": 22
+      "hashtag": "funnyvideos",
+      "count": 3
     },
     {
       "hashtag": "funny",
-      "count": 21
+      "count": 2
     },
     {
       "hashtag": "foryoupage",
-      "count": 21
+      "count": 2
     },
     {
-      "hashtag": "trending",
-      "count": 13
+      "hashtag": "foryou",
+      "count": 2
     },
     {
-      "hashtag": "fypシ",
-      "count": 8
+      "hashtag": "dogtalks",
+      "count": 1
     },
     {
-      "hashtag": "relatable",
-      "count": 7
+      "hashtag": "puppylove",
+      "count": 1
     },
     {
-      "hashtag": "grwm",
-      "count": 7
+      "hashtag": "dogowners",
+      "count": 1
     },
     {
-      "hashtag": "tiktok",
-      "count": 6
+      "hashtag": "cutedogs",
+      "count": 1
     },
     {
-      "hashtag": "fypage",
-      "count": 6
+      "hashtag": "doglife",
+      "count": 1
     },
     {
-      "hashtag": "trend",
-      "count": 5
+      "hashtag": "sixseven",
+      "count": 1
     },
     {
-      "hashtag": "teachersoftiktok",
-      "count": 5
+      "hashtag": "ballibotmogis",
+      "count": 1
     },
     {
-      "hashtag": "makeup",
-      "count": 5
+      "hashtag": "trendingreels",
+      "count": 1
     },
     {
-      "hashtag": "joshsmom",
-      "count": 5
+      "hashtag": "viraltiktok",
+      "count": 1
     },
     {
-      "hashtag": "joshandmomma",
-      "count": 5
+      "hashtag": "millionviews",
+      "count": 1
     },
     {
-      "hashtag": "dog",
-      "count": 5
+      "hashtag": "techmagic",
+      "count": 1
     },
     {
-      "hashtag": "catsoftiktok",
-      "count": 5
+      "hashtag": "smartbot",
+      "count": 1
     },
     {
-      "hashtag": "cat",
-      "count": 5
+      "hashtag": "aitrend",
+      "count": 1
     },
     {
-      "hashtag": "blowthisup",
-      "count": 5
+      "hashtag": "robotvibes",
+      "count": 1
+    },
+    {
+      "hashtag": "innovation",
+      "count": 1
     }
   ],
   "top_phrases": [
     {
-      "phrase": "god bless",
-      "count": 16
-    },
-    {
-      "phrase": "only one",
-      "count": 14
-    },
-    {
-      "phrase": "look good",
-      "count": 13
-    },
-    {
-      "phrase": "4th july",
-      "count": 13
-    },
-    {
-      "phrase": "won trend",
-      "count": 12
-    },
-    {
-      "phrase": "trap sack",
-      "count": 12
-    },
-    {
-      "phrase": "don know",
-      "count": 11
-    },
-    {
-      "phrase": "drake bell",
-      "count": 11
-    },
-    {
-      "phrase": "feel bad",
-      "count": 11
-    },
-    {
-      "phrase": "happy birthday",
-      "count": 11
-    },
-    {
-      "phrase": "don't know",
-      "count": 11
-    },
-    {
-      "phrase": "curly hair",
-      "count": 11
-    },
-    {
-      "phrase": "happy 4th",
-      "count": 11
-    },
-    {
-      "phrase": "even know",
-      "count": 10
-    },
-    {
-      "phrase": "call police",
-      "count": 10
-    },
-    {
-      "phrase": "aura farming",
-      "count": 10
-    },
-    {
-      "phrase": "kid vampire",
-      "count": 10
-    },
-    {
-      "phrase": "benson boone",
-      "count": 9
-    },
-    {
-      "phrase": "zahide won",
-      "count": 9
-    },
-    {
-      "phrase": "final destination",
-      "count": 9
-    },
-    {
-      "phrase": "gentle parenting",
-      "count": 9
-    },
-    {
-      "phrase": "poppy war",
-      "count": 9
-    },
-    {
-      "phrase": "lily tino",
-      "count": 9
-    },
-    {
-      "phrase": "didn know",
+      "phrase": "thank thank",
       "count": 8
     },
     {
-      "phrase": "alien isolation",
-      "count": 8
+      "phrase": "first one",
+      "count": 5
     },
     {
-      "phrase": "king kylie",
-      "count": 8
+      "phrase": "six seven",
+      "count": 5
     },
     {
-      "phrase": "don even",
-      "count": 7
+      "phrase": "thank thank thank",
+      "count": 5
     },
     {
-      "phrase": "ice cream",
-      "count": 7
+      "phrase": "paleta sticker",
+      "count": 5
     },
     {
-      "phrase": "i'm glad",
-      "count": 7
+      "phrase": "de la",
+      "count": 4
     },
     {
-      "phrase": "don think",
-      "count": 7
+      "phrase": "well well",
+      "count": 4
+    },
+    {
+      "phrase": "coming sharon",
+      "count": 4
+    },
+    {
+      "phrase": "de apolo",
+      "count": 4
+    },
+    {
+      "phrase": "que significa",
+      "count": 4
+    },
+    {
+      "phrase": "la moto",
+      "count": 4
+    },
+    {
+      "phrase": "jesse ventura",
+      "count": 3
+    },
+    {
+      "phrase": "when realized",
+      "count": 3
+    },
+    {
+      "phrase": "freaking unicorn",
+      "count": 3
+    },
+    {
+      "phrase": "это ии",
+      "count": 3
+    },
+    {
+      "phrase": "lo que",
+      "count": 3
+    },
+    {
+      "phrase": "easy draw",
+      "count": 3
+    },
+    {
+      "phrase": "la primera",
+      "count": 3
+    },
+    {
+      "phrase": "por qué",
+      "count": 3
+    },
+    {
+      "phrase": "say hi",
+      "count": 3
+    },
+    {
+      "phrase": "thank sticker",
+      "count": 3
+    },
+    {
+      "phrase": "paleta de",
+      "count": 3
+    },
+    {
+      "phrase": "apolo sticker",
+      "count": 3
+    },
+    {
+      "phrase": "paleta de apolo",
+      "count": 3
+    },
+    {
+      "phrase": "de apolo sticker",
+      "count": 3
+    },
+    {
+      "phrase": "paleta de apolo sticker",
+      "count": 3
+    },
+    {
+      "phrase": "yo sabiendo",
+      "count": 3
+    },
+    {
+      "phrase": "dame paleta",
+      "count": 3
+    },
+    {
+      "phrase": "dame paleta sticker",
+      "count": 3
+    },
+    {
+      "phrase": "oh boy",
+      "count": 3
     }
   ],
   "top_comments": [
     {
-      "text": "“a BLUE wig with RED outfit”🧍🏻‍♀️",
-      "author": "amysjkim",
-      "likes_count": 1650185,
-      "video_id": "7516756597452852510"
+      "text": "hold on is that a freaking unicorn",
+      "author": "jaes..spammm",
+      "likes_count": 761815,
+      "video_id": "7584286761640135950"
     },
     {
-      "text": "“it’s NOT a good COMBO”😭😭😭",
-      "author": "harpsbrandon",
-      "likes_count": 1102064,
-      "video_id": "7516756597452852510"
+      "text": "He’s 100% correct",
+      "author": "justsomesoundzbro",
+      "likes_count": 476810,
+      "video_id": "7593123292299545911"
     },
     {
-      "text": "He said “🧿👅🧿 mom? wait that’s mom!”",
-      "author": "gh0stlypumpk1n",
-      "likes_count": 973994,
-      "video_id": "7495262643733777694"
+      "text": "the concept of a white person teaching a black person how to dougie",
+      "author": "ilyyycarmen",
+      "likes_count": 440785,
+      "video_id": "7578243775244422420"
     },
     {
-      "text": "\"OMG U OKAY- oh who's that gorgeous\"",
-      "author": "joudyzeh2et",
-      "likes_count": 824662,
-      "video_id": "7501559989601930526"
+      "text": "I can’t tell if this is satire 😭😭😭😭😭",
+      "author": "devourmarbles",
+      "likes_count": 433714,
+      "video_id": "7570099326605724959"
     },
     {
-      "text": "they made it SO much worse by hiding",
-      "author": "ellaspam24_",
-      "likes_count": 755707,
-      "video_id": "7527910323681070367"
+      "text": "entonces carol quiere la paleta de apolo [sticker]",
+      "author": "zxzxzx_eliiii_zxzxzx",
+      "likes_count": 334803,
+      "video_id": "7595718808371809558"
     },
     {
-      "text": "now they TOLD u simon was in there and u aint believe them 😭",
-      "author": "xylodoesdrugs",
-      "likes_count": 747294,
-      "video_id": "7514396963052391726"
+      "text": "does he know? like in general",
+      "author": "szal0ver129",
+      "likes_count": 332986,
+      "video_id": "7588169082722159885"
     },
     {
-      "text": "Somebody that I used to know is betterrrrr",
-      "author": "..imsardee",
-      "likes_count": 725552,
-      "video_id": "7523218002842602783"
+      "text": "hey sweetie 💕",
+      "author": "louisamourn",
+      "likes_count": 309263,
+      "video_id": "7592324561404841247"
     },
     {
-      "text": "Like why did she ruin such a classic",
-      "author": "unfriendly.blk.hotti",
-      "likes_count": 720462,
-      "video_id": "7523218002842602783"
+      "text": "I agree. Trump has ruined American.",
+      "author": "wilmafingerdoo_",
+      "likes_count": 283453,
+      "video_id": "7593123292299545911"
     },
     {
-      "text": "stormi you look like mommy baby💗😭",
-      "author": "violet_1et",
-      "likes_count": 688658,
-      "video_id": "7503638393944050974"
+      "text": "It wasn't wet?!",
+      "author": "speciallovesyou555",
+      "likes_count": 279395,
+      "video_id": "7570099326605724959"
     },
     {
-      "text": "No offence but what kind of family is this",
-      "author": "nonsoyandrea",
-      "likes_count": 676419,
-      "video_id": "7519122043145702686"
+      "text": "Look at him omggg🥺",
+      "author": "minnie.rosee",
+      "likes_count": 265435,
+      "video_id": "7599061392150285582"
     }
   ],
   "recent_videos": [
     {
-      "video_id": "7516471647671438622",
-      "author": "hungergamespro",
-      "author_avatar_medium": "https://p16-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/28f80bfe2ed2f6cb55c1477ba5897fc8~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=bec72da7&x-expires=1753207200&x-signature=uLO21t9t5QZqO5cziwpVi3eg1pI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oAZE1I94EB3TXVGPwli5AfIiRA6VClHvEBBope~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=J9HHHdkN8jVa%2B32cJr5i51RYThA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/oAZE1I94EB3TXVGPwli5AfIiRA6VClHvEBBope~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=J9HHHdkN8jVa%2B32cJr5i51RYThA%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 1400000,
-      "comment_count": 7577,
-      "scraped_at": "2025-07-20 11:21:03"
+      "video_id": "7592324561404841247",
+      "author": "cheezstix89",
+      "author_avatar_local": "images/avatars/avatar_27205970f554.jpg",
+      "cover_local": "images/covers/cover_7592324561404841247_fba5b43660e1.jpg",
+      "likes_count": 1700000,
+      "comment_count": 2341,
+      "play_count": 33200000,
+      "share_count": 41000,
+      "scraped_at": "2026-02-07 20:26:51"
     },
     {
-      "video_id": "7519744506921487630",
-      "author": "arlene1ee",
-      "author_avatar_medium": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/11ebc51d3ff2d3958f3ced761b96874e~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=f489b1b4&x-expires=1753207200&x-signature=%2Bqbkiy47HbVGR0MTIgPon81zIb8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-p-0068-tx/o4LQACtIRRlfHKQYQFv9IwEw2Du9fhA9jCCe6k~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=HLPOsF5ZXBV8Q5lFksic9u9iD7g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-p-0068-tx/o4LQACtIRRlfHKQYQFv9IwEw2Du9fhA9jCCe6k~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=HLPOsF5ZXBV8Q5lFksic9u9iD7g%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 579400,
-      "comment_count": 3065,
-      "scraped_at": "2025-07-20 11:21:03"
+      "video_id": "7571794529020349751",
+      "author": "tiphone7nho1_503",
+      "author_avatar_local": "images/avatars/avatar_37db3a47c34a.jpg",
+      "cover_local": "images/covers/cover_7571794529020349751_2a335cdf30b8.jpg",
+      "likes_count": 1200000,
+      "comment_count": 6567,
+      "play_count": 32300000,
+      "share_count": 213900,
+      "scraped_at": "2026-02-07 20:26:52"
     },
     {
-      "video_id": "7509171346098654472",
-      "author": "markyeow85",
-      "author_avatar_medium": "https://p16-common-sign-useast2a.tiktokcdn-us.com/tos-useast2a-avt-0068-giso/f89118683084bd4bceec63c47024e0fd~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=0b9a1212&x-expires=1753207200&x-signature=iyonNNyBThtrUhbbnJwW%2BPdE%2BDY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/oIA1B3xfjQE8YoDkCbD1c9FeK5vaAA8EeH7jII~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=pLl9VR6Bz4FrxtTPRUTiLJvEmdc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/oIA1B3xfjQE8YoDkCbD1c9FeK5vaAA8EeH7jII~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=pLl9VR6Bz4FrxtTPRUTiLJvEmdc%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 352600,
-      "comment_count": 3600,
-      "scraped_at": "2025-07-20 11:21:02"
+      "video_id": "7568311136286772494",
+      "author": "ethanfunnyfamilytv",
+      "author_avatar_local": "images/avatars/avatar_a35473a291c7.jpg",
+      "cover_local": "images/covers/cover_7568311136286772494_9d32ac4c0818.jpg",
+      "likes_count": 353200,
+      "comment_count": 8419,
+      "play_count": 29700000,
+      "share_count": 97600,
+      "scraped_at": "2026-02-07 20:26:53"
     },
     {
-      "video_id": "7511023719691635990",
-      "author": "ethan.stee1e",
-      "author_avatar_medium": "https://p16-common-sign-useast2a.tiktokcdn-us.com/tos-useast2a-avt-0068-euttp/9bb6cdb423c68dd409e2c8ae39ec5c6a~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=377ad074&x-expires=1753207200&x-signature=fMSa%2F3Vd41IqyWpPmzAF4FNz2S4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-common-sign-no.tiktokcdn-us.com/tos-no1a-p-0037-no/osjInEXSQthRQf8GTy6GeWUGfZALG0gALwfggq~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=r8%2Bf1DZYe9%2FCrTrDU1iNu4TaDlg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-common-sign-no.tiktokcdn-us.com/tos-no1a-p-0037-no/osjInEXSQthRQf8GTy6GeWUGfZALG0gALwfggq~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=r8%2Bf1DZYe9%2FCrTrDU1iNu4TaDlg%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 208300,
-      "comment_count": 830,
-      "scraped_at": "2025-07-20 11:20:59"
+      "video_id": "7570099326605724959",
+      "author": "jeneen_sahtout",
+      "author_avatar_local": "images/avatars/avatar_8f384c6001d8.jpg",
+      "cover_local": "images/covers/cover_7570099326605724959_948d5bef8b2f.jpg",
+      "likes_count": 1700000,
+      "comment_count": 26900,
+      "play_count": 32400000,
+      "share_count": 253200,
+      "scraped_at": "2026-02-07 20:26:54"
     },
     {
-      "video_id": "7518024965401120021",
-      "author": "anatoly_pranks",
-      "author_avatar_medium": "https://p19-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/f31faaba6ec3eab0d8d228946dbba4b0~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=6280f3d6&x-expires=1753207200&x-signature=ulwG5Rbm7CYMZcIiEYvolPyy6YQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/ooIhiF5KwH9IAIbA0nIJWhigCrAVqrfZAuKQBY~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=QTVQfZK%2FBgsnojv5uCbf8dubfwM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/ooIhiF5KwH9IAIbA0nIJWhigCrAVqrfZAuKQBY~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=QTVQfZK%2FBgsnojv5uCbf8dubfwM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 2300000,
-      "comment_count": 9468,
-      "scraped_at": "2025-07-20 11:20:58"
+      "video_id": "7596736286312893727",
+      "author": "topcomedey8",
+      "author_avatar_local": "images/avatars/avatar_0050e3b3f493.jpg",
+      "cover_local": "images/covers/cover_7596736286312893727_e2e52973f14d.jpg",
+      "likes_count": 298700,
+      "comment_count": 5658,
+      "play_count": 30600000,
+      "share_count": 379500,
+      "scraped_at": "2026-02-07 20:26:55"
     },
     {
-      "video_id": "7527910323681070367",
-      "author": "instaagraace",
-      "author_avatar_medium": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/7993a5b5372ad1626adc713a3819bc2e~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=8c78878e&x-expires=1753207200&x-signature=DrvDYsIbulDenLhOTPGlLaqDrWk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/o8JIIFlsEFAxceCAIjZDqHZLIfgCH8Q4kIHfCq~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=hAB3HiTuBZdBaiUDq9A%2Bw42vu5U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/o8JIIFlsEFAxceCAIjZDqHZLIfgCH8Q4kIHfCq~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=hAB3HiTuBZdBaiUDq9A%2Bw42vu5U%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 9900000,
-      "comment_count": 53500,
-      "scraped_at": "2025-07-20 11:20:58"
+      "video_id": "7585758907499334926",
+      "author": "diamond.lynch",
+      "author_avatar_local": "images/avatars/avatar_527f905acb5a.jpg",
+      "cover_local": "images/covers/cover_7585758907499334926_e0c7b50d6bba.jpg",
+      "likes_count": 640400,
+      "comment_count": 1948,
+      "play_count": 30000000,
+      "share_count": 23800,
+      "scraped_at": "2026-02-07 20:26:56"
     },
     {
-      "video_id": "7522598791497665800",
-      "author": "mngcrazy",
-      "author_avatar_medium": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/c8323e4b83cdc9fc7607745f5486199b~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=44540f36&x-expires=1753207200&x-signature=MI6vT4%2BhTGqpmznqZrBZ1gw1Jss%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/oQE1PGEBGl8lwB8YuaEIWbA1S2BgBjSiASoiV~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=fGiIFa9d59Wr0gO%2FOroFnzzu1JM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/oQE1PGEBGl8lwB8YuaEIWbA1S2BgBjSiASoiV~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=fGiIFa9d59Wr0gO%2FOroFnzzu1JM%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 209800,
-      "comment_count": 882,
-      "scraped_at": "2025-07-20 11:20:57"
+      "video_id": "7593123292299545911",
+      "author": "fox9mn",
+      "author_avatar_local": "images/avatars/avatar_d07beb66b9d7.jpg",
+      "cover_local": "images/covers/cover_7593123292299545911_a86c964e8c22.jpg",
+      "likes_count": 3600000,
+      "comment_count": 55200,
+      "play_count": 29300000,
+      "share_count": 263100,
+      "scraped_at": "2026-02-07 20:26:57"
     },
     {
-      "video_id": "7500336636467612974",
-      "author": "tychilcutt",
-      "author_avatar_medium": "https://p19-sign.tiktokcdn-us.com/tos-useast5-avt-0068-tx/c3079c7e9263ddbd781856afb103705a~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=57317ddd&x-expires=1753207200&x-signature=D70nTHPxrIcGCHYyhQ%2B66J92jsM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQ2WKEyEA0R0AIpEcCFoAjADgeSBADiIfoFETt~tplv-tiktokx-dmt-logom:tos-useast5-i-0068-tx/okIIZJ0A0CRjkEaWBBE42CiAtAABCwf4ijCA9I.image?dr=9634&x-expires=1753207200&x-signature=cVUs0SGefm7rFFJ36wvkRHvNvj4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-p-0068-tx/oQ2WKEyEA0R0AIpEcCFoAjADgeSBADiIfoFETt~tplv-tiktokx-dmt-logom:tos-useast5-i-0068-tx/okIIZJ0A0CRjkEaWBBE42CiAtAABCwf4ijCA9I.image?dr=9634&x-expires=1753207200&x-signature=cVUs0SGefm7rFFJ36wvkRHvNvj4%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 236800,
-      "comment_count": 2286,
-      "scraped_at": "2025-07-20 11:20:55"
+      "video_id": "7585551352449813790",
+      "author": "fox4newsdallasfortworth",
+      "author_avatar_local": "images/avatars/avatar_41a148e561e7.jpg",
+      "cover_local": "images/covers/cover_7585551352449813790_ea5223476b5e.jpg",
+      "likes_count": 1300000,
+      "comment_count": 19000,
+      "play_count": 32700000,
+      "share_count": 94700,
+      "scraped_at": "2026-02-07 20:26:59"
     },
     {
-      "video_id": "7523768463920287007",
-      "author": "miamimobilecardetailers",
-      "author_avatar_medium": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/2663fc502c83bd8a45456fd4edf851f2~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=f800f0ff&x-expires=1753207200&x-signature=o%2F2vC7bHnRTWlX2nCoBpzI5a4ik%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/ooeEgGL0DQGfHgAAOUAAeqIkQng0rUIIqAw5JE~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=JFYa3dYggWakOb%2F2TjWDtUoWzrU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-p-0068-tx2/ooeEgGL0DQGfHgAAOUAAeqIkQng0rUIIqAw5JE~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=JFYa3dYggWakOb%2F2TjWDtUoWzrU%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
+      "video_id": "7584286761640135950",
+      "author": "yuki_and_friends",
+      "author_avatar_local": "images/avatars/avatar_32c3e9ded415.jpg",
+      "cover_local": "images/covers/cover_7584286761640135950_cb49a93e355b.jpg",
+      "likes_count": 4700000,
+      "comment_count": 11300,
+      "play_count": 30800000,
+      "share_count": 198300,
+      "scraped_at": "2026-02-07 20:27:00"
+    },
+    {
+      "video_id": "7585468554397355294",
+      "author": ".framenova",
+      "author_avatar_local": "images/avatars/avatar_22b748f80fba.jpg",
+      "cover_local": "images/covers/cover_7585468554397355294_7acf8d0b2ff2.jpg",
       "likes_count": 1500000,
-      "comment_count": 5063,
-      "scraped_at": "2025-07-20 11:20:54"
-    },
-    {
-      "video_id": "7509845848335912210",
-      "author": "henrydaddy22",
-      "author_avatar_medium": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-avt-0068/3ce3aba1c38bd518e4ba4b46b1793b04~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=14cb64a9&x-expires=1753207200&x-signature=v1fLPgeIGkKGFB%2Bzr5KvQY5RZcA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
-      "dynamic_cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/oQvMM9BBEiAqIYBHHAiKAVCAAyCrfI740BQAw5~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=5FLWSzEjN3uhhIPmd8iHbLFre9A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "cover": "https://p16-common-sign-sg.tiktokcdn-us.com/tos-alisg-p-0037/oQvMM9BBEiAqIYBHHAiKAVCAAyCrfI740BQAw5~tplv-tiktokx-origin.image?dr=9636&x-expires=1753207200&x-signature=5FLWSzEjN3uhhIPmd8iHbLFre9A%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast8",
-      "likes_count": 843900,
-      "comment_count": 2453,
-      "scraped_at": "2025-07-20 11:20:50"
+      "comment_count": 13700,
+      "play_count": 27600000,
+      "share_count": 19600,
+      "scraped_at": "2026-02-07 20:27:01"
     }
   ]
 }
