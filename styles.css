@@ -708,3 +708,146 @@ span.comments {
   font-family: "Geist Sans", Arial, sans-serif;
   font-size: 0.85em;
 }
+
+/* ========== MOBILE RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0 16px;
+  }
+
+  .dashboard-header h1 {
+    font-size: 1.4em;
+  }
+
+  .last-updated {
+    font-size: 0.7em;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: none;
+    padding: 0 16px;
+    margin: 16px auto;
+  }
+
+  /* Videos section */
+  #recent-videos.section {
+    height: 280px;
+    width: 100%;
+    order: 1;
+  }
+
+  .video-item {
+    height: 240px;
+  }
+
+  /* Stats section */
+  #stats.section {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    order: 2;
+  }
+
+  .stats-list {
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
+
+  .stat-total-videos {
+    grid-row: 1 / 2;
+  }
+
+  /* Hashtags section */
+  #hashtags.section {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    order: 3;
+  }
+
+  .hashtags-list {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+
+  /* Phrases scroll */
+  .phrases-scroll {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+  }
+
+  .phrases-wrapper {
+    width: 100%;
+  }
+
+  /* Comments section */
+  .section.tall,
+  .section:nth-child(4) {
+    grid-area: unset;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    order: 4;
+  }
+
+  #top-comments.section h3 {
+    margin-left: 16px;
+  }
+
+  ul.comments-list {
+    max-height: 350px;
+  }
+
+  .comment-item {
+    width: calc(100% - 20px);
+    margin: 8px 10px;
+  }
+
+  /* Reset grid areas for mobile */
+  .section:nth-child(1),
+  .section:nth-child(2),
+  .section:nth-child(3),
+  .section:nth-child(4) {
+    grid-area: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-header h1 {
+    font-size: 1.2em;
+  }
+
+  .stats-list {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-total-videos {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .stat-total-comments,
+  .stat-total-hashtags,
+  .stat-avg-likes,
+  .stat-avg-comments {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .video-item {
+    height: 200px;
+  }
+
+  #recent-videos.section {
+    height: 230px;
+  }
+}
