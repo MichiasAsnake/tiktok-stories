@@ -1,388 +1,388 @@
 {
   "stats": {
-    "total_videos": 27,
-    "total_comments": 491,
-    "total_hashtags": 115,
-    "avg_likes_per_video": 2114944.44,
-    "avg_comments_per_video": 11463.37,
-    "last_updated": "2026-02-07 20:27:18"
+    "total_videos": 29,
+    "total_comments": 545,
+    "total_hashtags": 98,
+    "avg_likes_per_video": 1743227.59,
+    "avg_comments_per_video": 10772.34,
+    "last_updated": "2026-02-08 14:42:29"
   },
   "hashtags": [
     {
       "hashtag": "fyp",
+      "count": 8
+    },
+    {
+      "hashtag": "aicat",
       "count": 5
     },
     {
-      "hashtag": "funnyvideos",
-      "count": 3
+      "hashtag": "foryoupage",
+      "count": 4
+    },
+    {
+      "hashtag": "kitten",
+      "count": 4
+    },
+    {
+      "hashtag": "viral",
+      "count": 2
+    },
+    {
+      "hashtag": "trending",
+      "count": 2
+    },
+    {
+      "hashtag": "usa",
+      "count": 2
+    },
+    {
+      "hashtag": "orangecat",
+      "count": 2
     },
     {
       "hashtag": "funny",
       "count": 2
     },
     {
-      "hashtag": "foryoupage",
-      "count": 2
-    },
-    {
       "hashtag": "foryou",
-      "count": 2
-    },
-    {
-      "hashtag": "dogtalks",
       "count": 1
     },
     {
-      "hashtag": "puppylove",
+      "hashtag": "video",
       "count": 1
     },
     {
-      "hashtag": "dogowners",
+      "hashtag": "indian",
       "count": 1
     },
     {
-      "hashtag": "cutedogs",
+      "hashtag": "street",
       "count": 1
     },
     {
-      "hashtag": "doglife",
+      "hashtag": "food",
       "count": 1
     },
     {
-      "hashtag": "sixseven",
+      "hashtag": "goldenglobes",
       "count": 1
     },
     {
-      "hashtag": "ballibotmogis",
+      "hashtag": "amauryguichon",
       "count": 1
     },
     {
-      "hashtag": "trendingreels",
+      "hashtag": "chocolate",
       "count": 1
     },
     {
-      "hashtag": "viraltiktok",
+      "hashtag": "punchmachine",
       "count": 1
     },
     {
-      "hashtag": "millionviews",
+      "hashtag": "boxing",
       "count": 1
     },
     {
-      "hashtag": "techmagic",
-      "count": 1
-    },
-    {
-      "hashtag": "smartbot",
-      "count": 1
-    },
-    {
-      "hashtag": "aitrend",
-      "count": 1
-    },
-    {
-      "hashtag": "robotvibes",
-      "count": 1
-    },
-    {
-      "hashtag": "innovation",
+      "hashtag": "wow",
       "count": 1
     }
   ],
   "top_phrases": [
     {
-      "phrase": "thank thank",
-      "count": 8
+      "phrase": "jingle bells",
+      "count": 12
     },
     {
-      "phrase": "first one",
-      "count": 5
-    },
-    {
-      "phrase": "six seven",
-      "count": 5
-    },
-    {
-      "phrase": "thank thank thank",
-      "count": 5
-    },
-    {
-      "phrase": "paleta sticker",
-      "count": 5
-    },
-    {
-      "phrase": "de la",
+      "phrase": "masa madre",
       "count": 4
     },
     {
-      "phrase": "well well",
+      "phrase": "esa madre",
       "count": 4
     },
     {
-      "phrase": "coming sharon",
+      "phrase": "wasn jingle",
       "count": 4
     },
     {
-      "phrase": "de apolo",
+      "phrase": "wasn jingle bells",
       "count": 4
     },
     {
-      "phrase": "que significa",
-      "count": 4
-    },
-    {
-      "phrase": "la moto",
-      "count": 4
-    },
-    {
-      "phrase": "jesse ventura",
+      "phrase": "makan pake",
       "count": 3
     },
     {
-      "phrase": "when realized",
+      "phrase": "pake wadah",
       "count": 3
     },
     {
-      "phrase": "freaking unicorn",
+      "phrase": "makan pake wadah",
       "count": 3
     },
     {
-      "phrase": "это ии",
+      "phrase": "guys hati",
       "count": 3
     },
     {
-      "phrase": "lo que",
+      "phrase": "hati hati",
       "count": 3
     },
     {
-      "phrase": "easy draw",
+      "phrase": "hati dalam",
       "count": 3
     },
     {
-      "phrase": "la primera",
+      "phrase": "dalam dunia",
       "count": 3
     },
     {
-      "phrase": "por qué",
+      "phrase": "dunia intelijen",
       "count": 3
     },
     {
-      "phrase": "say hi",
+      "phrase": "intelijen ada",
       "count": 3
     },
     {
-      "phrase": "thank sticker",
+      "phrase": "ada aturan",
       "count": 3
     },
     {
-      "phrase": "paleta de",
+      "phrase": "aturan main",
       "count": 3
     },
     {
-      "phrase": "apolo sticker",
+      "phrase": "main kalau",
       "count": 3
     },
     {
-      "phrase": "paleta de apolo",
+      "phrase": "kalau informasinya",
       "count": 3
     },
     {
-      "phrase": "de apolo sticker",
+      "phrase": "informasinya dikasih",
       "count": 3
     },
     {
-      "phrase": "paleta de apolo sticker",
+      "phrase": "dikasih gratis",
       "count": 3
     },
     {
-      "phrase": "yo sabiendo",
+      "phrase": "gratis ke",
       "count": 3
     },
     {
-      "phrase": "dame paleta",
+      "phrase": "ke publik",
       "count": 3
     },
     {
-      "phrase": "dame paleta sticker",
+      "phrase": "publik berarti",
       "count": 3
     },
     {
-      "phrase": "oh boy",
+      "phrase": "berarti itu",
+      "count": 3
+    },
+    {
+      "phrase": "itu sudah",
+      "count": 3
+    },
+    {
+      "phrase": "sudah basi",
+      "count": 3
+    },
+    {
+      "phrase": "basi yang",
+      "count": 3
+    },
+    {
+      "phrase": "yang dipublikasikan",
+      "count": 3
+    },
+    {
+      "phrase": "dipublikasikan itu",
+      "count": 3
+    },
+    {
+      "phrase": "itu cuma",
       "count": 3
     }
   ],
   "top_comments": [
     {
-      "text": "hold on is that a freaking unicorn",
-      "author": "jaes..spammm",
-      "likes_count": 761815,
-      "video_id": "7584286761640135950"
+      "text": "Maybe start becoming a 24 hour life streamer just in case …",
+      "author": "badlandtimes",
+      "likes_count": 962981,
+      "video_id": "7602451652280388877"
     },
     {
-      "text": "He’s 100% correct",
-      "author": "justsomesoundzbro",
-      "likes_count": 476810,
-      "video_id": "7593123292299545911"
+      "text": "This generation is so unserious, YOU ARE IN DANGER.",
+      "author": "nneptus",
+      "likes_count": 584594,
+      "video_id": "7602451652280388877"
     },
     {
-      "text": "the concept of a white person teaching a black person how to dougie",
-      "author": "ilyyycarmen",
-      "likes_count": 440785,
-      "video_id": "7578243775244422420"
+      "text": "и как жить с такой соседкой",
+      "author": "maksimkaxl",
+      "likes_count": 515453,
+      "video_id": "7577359804180565268"
     },
     {
-      "text": "I can’t tell if this is satire 😭😭😭😭😭",
-      "author": "devourmarbles",
-      "likes_count": 433714,
-      "video_id": "7570099326605724959"
+      "text": " [sticker]",
+      "author": "mcdoublemaxicus",
+      "likes_count": 475306,
+      "video_id": "7586763471472069919"
     },
     {
-      "text": "entonces carol quiere la paleta de apolo [sticker]",
-      "author": "zxzxzx_eliiii_zxzxzx",
-      "likes_count": 334803,
-      "video_id": "7595718808371809558"
+      "text": "Well atleast you caught that one",
+      "author": "jody.spamzzz",
+      "likes_count": 426921,
+      "video_id": "7587260063866260791"
     },
     {
-      "text": "does he know? like in general",
-      "author": "szal0ver129",
-      "likes_count": 332986,
-      "video_id": "7588169082722159885"
+      "text": "First time in a documentary kinda nervous",
+      "author": "kaaaaaaaaaaaali",
+      "likes_count": 406957,
+      "video_id": "7602451652280388877"
     },
     {
-      "text": "hey sweetie 💕",
-      "author": "louisamourn",
-      "likes_count": 309263,
-      "video_id": "7592324561404841247"
+      "text": "only real fans know that's solage",
+      "author": "avauy2",
+      "likes_count": 394269,
+      "video_id": "7598673547774430477"
     },
     {
-      "text": "I agree. Trump has ruined American.",
-      "author": "wilmafingerdoo_",
-      "likes_count": 283453,
-      "video_id": "7593123292299545911"
+      "text": "Start live streaming",
+      "author": "larailaa",
+      "likes_count": 388827,
+      "video_id": "7602451652280388877"
     },
     {
-      "text": "It wasn't wet?!",
-      "author": "speciallovesyou555",
-      "likes_count": 279395,
-      "video_id": "7570099326605724959"
+      "text": "It’s giving 😭",
+      "author": "xjessxplouisexx",
+      "likes_count": 377234,
+      "video_id": "7587260063866260791"
     },
     {
-      "text": "Look at him omggg🥺",
-      "author": "minnie.rosee",
-      "likes_count": 265435,
-      "video_id": "7599061392150285582"
+      "text": "The way I confidently yelled Jingle Bells😭",
+      "author": "officialemhofstedt",
+      "likes_count": 356502,
+      "video_id": "7571467464605781303"
     }
   ],
   "recent_videos": [
     {
-      "video_id": "7592324561404841247",
-      "author": "cheezstix89",
-      "author_avatar_local": "images/avatars/avatar_27205970f554.jpg",
-      "cover_local": "images/covers/cover_7592324561404841247_fba5b43660e1.jpg",
-      "likes_count": 1700000,
-      "comment_count": 2341,
-      "play_count": 33200000,
-      "share_count": 41000,
-      "scraped_at": "2026-02-07 20:26:51"
+      "video_id": "7587071242465774870",
+      "author": "street_food619",
+      "author_avatar_local": "images/avatars/avatar_624ec3b9bbcc.jpg",
+      "cover_local": "images/covers/cover_7587071242465774870_d0254cf1498e.jpg",
+      "likes_count": 754600,
+      "comment_count": 35800,
+      "play_count": 36700000,
+      "share_count": 940500,
+      "scraped_at": "2026-02-08 14:41:59"
     },
     {
-      "video_id": "7571794529020349751",
-      "author": "tiphone7nho1_503",
-      "author_avatar_local": "images/avatars/avatar_37db3a47c34a.jpg",
-      "cover_local": "images/covers/cover_7571794529020349751_2a335cdf30b8.jpg",
-      "likes_count": 1200000,
-      "comment_count": 6567,
-      "play_count": 32300000,
-      "share_count": 213900,
-      "scraped_at": "2026-02-07 20:26:52"
+      "video_id": "7594588383997906206",
+      "author": "paigeinhollywood",
+      "author_avatar_local": "images/avatars/avatar_7aecb71e23b2.jpg",
+      "cover_local": "images/covers/cover_7594588383997906206_a0d711532193.jpg",
+      "likes_count": 2300000,
+      "comment_count": 9417,
+      "play_count": 30100000,
+      "share_count": 41200,
+      "scraped_at": "2026-02-08 14:42:01"
     },
     {
-      "video_id": "7568311136286772494",
-      "author": "ethanfunnyfamilytv",
-      "author_avatar_local": "images/avatars/avatar_a35473a291c7.jpg",
-      "cover_local": "images/covers/cover_7568311136286772494_9d32ac4c0818.jpg",
-      "likes_count": 353200,
-      "comment_count": 8419,
-      "play_count": 29700000,
-      "share_count": 97600,
-      "scraped_at": "2026-02-07 20:26:53"
+      "video_id": "7602301406300687671",
+      "author": "amauryguichon",
+      "author_avatar_local": "images/avatars/avatar_2aec625e7d40.jpg",
+      "cover_local": "images/covers/cover_7602301406300687671_2b75b6628217.jpg",
+      "likes_count": 1800000,
+      "comment_count": 13100,
+      "play_count": 35900000,
+      "share_count": 138300,
+      "scraped_at": "2026-02-08 14:42:02"
     },
     {
-      "video_id": "7570099326605724959",
-      "author": "jeneen_sahtout",
-      "author_avatar_local": "images/avatars/avatar_8f384c6001d8.jpg",
-      "cover_local": "images/covers/cover_7570099326605724959_948d5bef8b2f.jpg",
-      "likes_count": 1700000,
-      "comment_count": 26900,
-      "play_count": 32400000,
-      "share_count": 253200,
-      "scraped_at": "2026-02-07 20:26:54"
+      "video_id": "7602451652280388877",
+      "author": "notnicogrigg",
+      "author_avatar_local": "images/avatars/avatar_8ecbbf53760f.jpg",
+      "cover_local": "images/covers/cover_7602451652280388877_8b753d578166.jpg",
+      "likes_count": 5700000,
+      "comment_count": 28900,
+      "play_count": 40400000,
+      "share_count": 299100,
+      "scraped_at": "2026-02-08 14:42:03"
     },
     {
-      "video_id": "7596736286312893727",
-      "author": "topcomedey8",
-      "author_avatar_local": "images/avatars/avatar_0050e3b3f493.jpg",
-      "cover_local": "images/covers/cover_7596736286312893727_e2e52973f14d.jpg",
-      "likes_count": 298700,
-      "comment_count": 5658,
-      "play_count": 30600000,
-      "share_count": 379500,
-      "scraped_at": "2026-02-07 20:26:55"
+      "video_id": "7596953112376577335",
+      "author": "overtime",
+      "author_avatar_local": "images/avatars/avatar_7b70407b5d20.jpg",
+      "cover_local": "images/covers/cover_7596953112376577335_950cf60d076b.jpg",
+      "likes_count": 835200,
+      "comment_count": 9468,
+      "play_count": 35300000,
+      "share_count": 53400,
+      "scraped_at": "2026-02-08 14:42:04"
     },
     {
-      "video_id": "7585758907499334926",
-      "author": "diamond.lynch",
-      "author_avatar_local": "images/avatars/avatar_527f905acb5a.jpg",
-      "cover_local": "images/covers/cover_7585758907499334926_e0c7b50d6bba.jpg",
-      "likes_count": 640400,
-      "comment_count": 1948,
-      "play_count": 30000000,
-      "share_count": 23800,
-      "scraped_at": "2026-02-07 20:26:56"
+      "video_id": "7595890512364621086",
+      "author": "funnysleepycat",
+      "author_avatar_local": "images/avatars/avatar_db6679bb3ecb.jpg",
+      "cover_local": "images/covers/cover_7595890512364621086_dc50e7bf1866.jpg",
+      "likes_count": 2300000,
+      "comment_count": 17900,
+      "play_count": 36800000,
+      "share_count": 197800,
+      "scraped_at": "2026-02-08 14:42:05"
     },
     {
-      "video_id": "7593123292299545911",
-      "author": "fox9mn",
-      "author_avatar_local": "images/avatars/avatar_d07beb66b9d7.jpg",
-      "cover_local": "images/covers/cover_7593123292299545911_a86c964e8c22.jpg",
-      "likes_count": 3600000,
-      "comment_count": 55200,
-      "play_count": 29300000,
-      "share_count": 263100,
-      "scraped_at": "2026-02-07 20:26:57"
+      "video_id": "7571467464605781303",
+      "author": "foxtv",
+      "author_avatar_local": "images/avatars/avatar_3f611a0332f0.jpg",
+      "cover_local": "images/covers/cover_7571467464605781303_755a7a6171e3.jpg",
+      "likes_count": 2500000,
+      "comment_count": 5976,
+      "play_count": 35200000,
+      "share_count": 14000,
+      "scraped_at": "2026-02-08 14:42:06"
     },
     {
-      "video_id": "7585551352449813790",
-      "author": "fox4newsdallasfortworth",
-      "author_avatar_local": "images/avatars/avatar_41a148e561e7.jpg",
-      "cover_local": "images/covers/cover_7585551352449813790_ea5223476b5e.jpg",
-      "likes_count": 1300000,
-      "comment_count": 19000,
-      "play_count": 32700000,
-      "share_count": 94700,
-      "scraped_at": "2026-02-07 20:26:59"
+      "video_id": "7589452004397747470",
+      "author": "pangmaolaile",
+      "author_avatar_local": "images/avatars/avatar_03515c8139ec.jpg",
+      "cover_local": "images/covers/cover_7589452004397747470_e54d2391b13a.jpg",
+      "likes_count": 377100,
+      "comment_count": 2783,
+      "play_count": 25800000,
+      "share_count": 9805,
+      "scraped_at": "2026-02-08 14:42:07"
     },
     {
-      "video_id": "7584286761640135950",
-      "author": "yuki_and_friends",
-      "author_avatar_local": "images/avatars/avatar_32c3e9ded415.jpg",
-      "cover_local": "images/covers/cover_7584286761640135950_cb49a93e355b.jpg",
-      "likes_count": 4700000,
-      "comment_count": 11300,
-      "play_count": 30800000,
-      "share_count": 198300,
-      "scraped_at": "2026-02-07 20:27:00"
+      "video_id": "7573940209709010189",
+      "author": "cnn",
+      "author_avatar_local": "images/avatars/avatar_bf71eced4c1d.jpg",
+      "cover_local": "images/covers/cover_7573940209709010189_7e15c8844b8b.jpg",
+      "likes_count": 2900000,
+      "comment_count": 17600,
+      "play_count": 39200000,
+      "share_count": 288000,
+      "scraped_at": "2026-02-08 14:42:08"
     },
     {
-      "video_id": "7585468554397355294",
-      "author": ".framenova",
-      "author_avatar_local": "images/avatars/avatar_22b748f80fba.jpg",
-      "cover_local": "images/covers/cover_7585468554397355294_7acf8d0b2ff2.jpg",
-      "likes_count": 1500000,
-      "comment_count": 13700,
-      "play_count": 27600000,
-      "share_count": 19600,
-      "scraped_at": "2026-02-07 20:27:01"
+      "video_id": "7586763471472069919",
+      "author": "teddythewhitegold",
+      "author_avatar_local": "images/avatars/avatar_c5fbd3896687.jpg",
+      "cover_local": "images/covers/cover_7586763471472069919_2631cf872438.jpg",
+      "likes_count": 7100000,
+      "comment_count": 10300,
+      "play_count": 33100000,
+      "share_count": 1200000,
+      "scraped_at": "2026-02-08 14:42:09"
     }
   ]
 }
