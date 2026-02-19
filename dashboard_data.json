@@ -1,44 +1,32 @@
 {
   "stats": {
-    "total_videos": 25,
-    "total_comments": 466,
-    "total_hashtags": 155,
-    "avg_likes_per_video": 2968428.0,
-    "avg_comments_per_video": 21953.92,
-    "last_updated": "2026-02-13 08:54:15"
+    "total_videos": 26,
+    "total_comments": 467,
+    "total_hashtags": 133,
+    "avg_likes_per_video": 1353292.31,
+    "avg_comments_per_video": 9288.65,
+    "last_updated": "2026-02-19 18:08:09"
   },
   "hashtags": [
     {
       "hashtag": "fyp",
-      "count": 8
-    },
-    {
-      "hashtag": "viral",
-      "count": 5
+      "count": 9
     },
     {
       "hashtag": "foryoupage",
-      "count": 3
+      "count": 4
     },
     {
-      "hashtag": "usa",
-      "count": 3
-    },
-    {
-      "hashtag": "funnyvideos",
-      "count": 3
-    },
-    {
-      "hashtag": "funny",
-      "count": 3
+      "hashtag": "viral",
+      "count": 4
     },
     {
       "hashtag": "ballibotmogis",
-      "count": 2
+      "count": 3
     },
     {
       "hashtag": "trendingreels",
-      "count": 2
+      "count": 3
     },
     {
       "hashtag": "viraltiktok",
@@ -57,6 +45,10 @@
       "count": 2
     },
     {
+      "hashtag": "aitrend",
+      "count": 2
+    },
+    {
       "hashtag": "robotvibes",
       "count": 2
     },
@@ -65,324 +57,332 @@
       "count": 2
     },
     {
-      "hashtag": "london",
+      "hashtag": "funny",
       "count": 2
     },
     {
-      "hashtag": "game",
+      "hashtag": "usa",
       "count": 2
     },
     {
-      "hashtag": "challenge",
-      "count": 2
-    },
-    {
-      "hashtag": "aitrend",
+      "hashtag": "extremesports",
       "count": 1
     },
     {
-      "hashtag": "creatorsearchinsights",
+      "hashtag": "hillclimb",
       "count": 1
     },
     {
-      "hashtag": "tiktok",
+      "hashtag": "motorcycleusa",
+      "count": 1
+    },
+    {
+      "hashtag": "foryou",
+      "count": 1
+    },
+    {
+      "hashtag": "horses",
+      "count": 1
+    },
+    {
+      "hashtag": "foalingseason2026",
       "count": 1
     }
   ],
   "top_phrases": [
     {
-      "phrase": "rolex rolex",
+      "phrase": "bad bunny",
       "count": 8
     },
     {
-      "phrase": "la olla",
-      "count": 7
-    },
-    {
-      "phrase": "es una",
+      "phrase": "jajajaja jajajaja",
       "count": 5
     },
     {
-      "phrase": "gather here",
+      "phrase": "max alexander",
       "count": 4
     },
     {
-      "phrase": "comme moi",
-      "count": 4
-    },
-    {
-      "phrase": "rolex rolex rolex",
-      "count": 4
-    },
-    {
-      "phrase": "pah pah",
-      "count": 4
-    },
-    {
-      "phrase": "не это",
-      "count": 4
-    },
-    {
-      "phrase": "le tenemos",
-      "count": 4
-    },
-    {
-      "phrase": "tenemos miedo",
-      "count": 4
-    },
-    {
-      "phrase": "miedo al",
-      "count": 4
-    },
-    {
-      "phrase": "al mar",
-      "count": 4
-    },
-    {
-      "phrase": "le tenemos miedo",
-      "count": 4
-    },
-    {
-      "phrase": "tenemos miedo al",
-      "count": 4
-    },
-    {
-      "phrase": "miedo al mar",
-      "count": 4
-    },
-    {
-      "phrase": "le tenemos miedo al",
-      "count": 4
-    },
-    {
-      "phrase": "tenemos miedo al mar",
-      "count": 4
-    },
-    {
-      "phrase": "watching friday",
+      "phrase": "gave birth",
       "count": 3
     },
     {
-      "phrase": "else watching",
+      "phrase": "why does",
       "count": 3
     },
     {
-      "phrase": "creo que",
+      "phrase": "je suis",
       "count": 3
     },
     {
-      "phrase": "al ver",
+      "phrase": "death rattle",
       "count": 3
     },
     {
-      "phrase": "ver que",
+      "phrase": "black dots",
       "count": 3
     },
     {
-      "phrase": "qui regarde",
+      "phrase": "20 years",
       "count": 3
     },
     {
-      "phrase": "regarde la",
+      "phrase": "end update",
       "count": 3
     },
     {
-      "phrase": "qui regarde la",
+      "phrase": "baby villager",
       "count": 3
     },
     {
-      "phrase": "jajajaja jajajaja",
+      "phrase": "jajajaja jajajaja jajajaja",
       "count": 3
     },
     {
-      "phrase": "pah pah pah",
+      "phrase": "insult bad",
       "count": 3
     },
     {
-      "phrase": "thing about",
+      "phrase": "insult bad bunny",
       "count": 3
     },
     {
-      "phrase": "мне мозги",
+      "phrase": "karen torres",
       "count": 3
     },
     {
-      "phrase": "вы мне",
-      "count": 3
+      "phrase": "ရင လည",
+      "count": 2
+    },
+    {
+      "phrase": "whole ass",
+      "count": 2
+    },
+    {
+      "phrase": "feel bad",
+      "count": 2
+    },
+    {
+      "phrase": "que iba",
+      "count": 2
+    },
+    {
+      "phrase": "where new",
+      "count": 2
+    },
+    {
+      "phrase": "gabriella montez",
+      "count": 2
+    },
+    {
+      "phrase": "mother daughter",
+      "count": 2
+    },
+    {
+      "phrase": "still lost",
+      "count": 2
+    },
+    {
+      "phrase": "trampa ganó",
+      "count": 2
+    },
+    {
+      "phrase": "run away",
+      "count": 2
+    },
+    {
+      "phrase": "those black",
+      "count": 2
+    },
+    {
+      "phrase": "dots capillary",
+      "count": 2
+    },
+    {
+      "phrase": "capillary bleeds",
+      "count": 2
+    },
+    {
+      "phrase": "those black dots",
+      "count": 2
+    },
+    {
+      "phrase": "black dots capillary",
+      "count": 2
     }
   ],
   "top_comments": [
     {
-      "text": "Him and his dad at home",
-      "author": "gabayers",
-      "likes_count": 1235957,
-      "video_id": "7582080366815546679"
+      "text": "BRO WALKED IN LIKE A CELEBRITY GUEST 😭😭💀",
+      "author": "papi_pavel69",
+      "likes_count": 962719,
+      "video_id": "7605060882116250911"
     },
     {
-      "text": "“ She is MARRIEDT “ he standing on business 🤣🤣🤣",
-      "author": "misselena907",
-      "likes_count": 1016759,
-      "video_id": "7582080366815546679"
+      "text": "Imagine being in the comfort of your own home, snuggling w ur fave blankie when suddenly ur hb walks in with THE DEVIL from THE BIBLE 😭",
+      "author": "vd_odo",
+      "likes_count": 848993,
+      "video_id": "7605060882116250911"
     },
     {
-      "text": "Me when mom says we have to go to school…",
-      "author": "helloword422",
-      "likes_count": 964397,
-      "video_id": "7581792695568370975"
+      "text": "everything blindness",
+      "author": "soleilminx",
+      "likes_count": 773441,
+      "video_id": "7581684230074273038"
     },
     {
-      "text": "Quería abrazar a la olla 😅🤣",
-      "author": "vies9",
-      "likes_count": 460898,
-      "video_id": "7581602000823979278"
+      "text": "It’s only funny because it didn’t happen to me 💀",
+      "author": "alliesloth13",
+      "likes_count": 631250,
+      "video_id": "7605060882116250911"
     },
     {
-      "text": "“He tryna get my mama nah”",
-      "author": "devsmith180",
-      "likes_count": 440114,
-      "video_id": "7582080366815546679"
+      "text": "bro your dog BETRAYED YOU😔",
+      "author": "chuurican",
+      "likes_count": 589620,
+      "video_id": "7605060882116250911"
     },
     {
-      "text": "They’re treating it like a bomb",
-      "author": "u4k5own",
-      "likes_count": 424221,
-      "video_id": "7583957867481386271"
+      "text": "“This is what I have to deal with-“",
+      "author": "eggboyle23",
+      "likes_count": 573430,
+      "video_id": "7606183604586122527"
     },
     {
-      "text": "omg what would you do if someone grabbed you and ran away??",
-      "author": "therealnativebarbie",
-      "likes_count": 411346,
-      "video_id": "7570409893488889143"
+      "text": "the blood curdling scream killed me",
+      "author": "nalalovesyouuu",
+      "likes_count": 531918,
+      "video_id": "7605060882116250911"
     },
     {
-      "text": "Creo que no la habia visto desde el dia del parto",
-      "author": "enilinea",
-      "likes_count": 406052,
-      "video_id": "7576597923908029751"
+      "text": "“You can’t just walk in my-“",
+      "author": "jamessgoinss",
+      "likes_count": 448219,
+      "video_id": "7605060882116250911"
     },
     {
-      "text": "No",
-      "author": "user9152653421582",
-      "likes_count": 390210,
-      "video_id": "7583069150046670093"
+      "text": "Naw he doing that on purpose",
+      "author": "truce.tv",
+      "likes_count": 420690,
+      "video_id": "7606183604586122527"
     },
     {
-      "text": "And he put the hood on…. He not playin!",
-      "author": "lena.b111",
-      "likes_count": 357475,
-      "video_id": "7582080366815546679"
+      "text": "I’m European and know already it’s Utah",
+      "author": "mangoes446",
+      "likes_count": 364662,
+      "video_id": "7581684230074273038"
     }
   ],
   "recent_videos": [
     {
-      "video_id": "7592659046344297759",
-      "author": "garymfox",
-      "author_avatar_local": "images/avatars/avatar_7add032ce81e.jpg",
-      "cover_local": "images/covers/cover_7592659046344297759_652f1b258668.jpg",
-      "likes_count": 868500,
-      "comment_count": 16500,
-      "play_count": 81600000,
-      "share_count": 354800,
-      "scraped_at": "2026-02-13 08:53:56"
+      "video_id": "7606987933475769614",
+      "author": "jk89gwpvxbq",
+      "author_avatar_local": "images/avatars/avatar_98ae52d99426.jpg",
+      "cover_local": "images/covers/cover_7606987933475769614_1f94dc5e41dd.jpg",
+      "likes_count": 313000,
+      "comment_count": 2063,
+      "play_count": 28200000,
+      "share_count": 17400,
+      "scraped_at": "2026-02-19 18:07:45"
     },
     {
-      "video_id": "7584062074716835085",
-      "author": "crazy_maymay",
-      "author_avatar_local": "images/avatars/avatar_b54df307adab.jpg",
-      "cover_local": "images/covers/cover_7584062074716835085_160e379f1028.jpg",
-      "likes_count": 1100000,
-      "comment_count": 48000,
-      "play_count": 85500000,
-      "share_count": 248600,
-      "scraped_at": "2026-02-13 08:53:57"
+      "video_id": "7601484884439321886",
+      "author": "yell1366",
+      "author_avatar_local": "images/avatars/avatar_005d88caf0a9.jpg",
+      "cover_local": "images/covers/cover_7601484884439321886_3d4291c7218b.jpg",
+      "likes_count": 1600000,
+      "comment_count": 17900,
+      "play_count": 29800000,
+      "share_count": 387700,
+      "scraped_at": "2026-02-19 18:07:47"
     },
     {
-      "video_id": "7581602000823979278",
-      "author": "cathylu731",
-      "author_avatar_local": "images/avatars/avatar_f88c14cf62f0.jpg",
-      "cover_local": "images/covers/cover_7581602000823979278_49653b4370e8.jpg",
-      "likes_count": 4000000,
-      "comment_count": 4934,
-      "play_count": 85200000,
-      "share_count": 81600,
-      "scraped_at": "2026-02-13 08:53:58"
+      "video_id": "7605578068958203166",
+      "author": "video.video961",
+      "author_avatar_local": "images/avatars/avatar_5d6b70390ade.jpg",
+      "cover_local": "images/covers/cover_7605578068958203166_5dfbe0317b04.jpg",
+      "likes_count": 97000,
+      "comment_count": 461,
+      "play_count": 26700000,
+      "share_count": 3548,
+      "scraped_at": "2026-02-19 18:07:48"
     },
     {
-      "video_id": "7596956836050275639",
-      "author": "funny6342",
-      "author_avatar_local": "images/avatars/avatar_aa7741a9ca82.jpg",
-      "cover_local": "images/covers/cover_7596956836050275639_3e826577523f.jpg",
-      "likes_count": 685600,
-      "comment_count": 9813,
-      "play_count": 62000000,
-      "share_count": 273300,
-      "scraped_at": "2026-02-13 08:53:59"
+      "video_id": "7607351661698223374",
+      "author": "orangecat_cute",
+      "author_avatar_local": "images/avatars/avatar_5cc236169f87.jpg",
+      "cover_local": "images/covers/cover_7607351661698223374_b69ca0fc137e.jpg",
+      "likes_count": 832000,
+      "comment_count": 8879,
+      "play_count": 42300000,
+      "share_count": 231000,
+      "scraped_at": "2026-02-19 18:07:49"
     },
     {
-      "video_id": "7591370963745328415",
-      "author": "ronaldo.ai44",
-      "author_avatar_local": "images/avatars/avatar_2442fb2c6cc4.jpg",
-      "cover_local": "images/covers/cover_7591370963745328415_d9f91df65b43.jpg",
+      "video_id": "7604846809407655198",
+      "author": "kimberlykimpena",
+      "author_avatar_local": "images/avatars/avatar_88585659475e.jpg",
+      "cover_local": "images/covers/cover_7604846809407655198_11614b5bbe0e.jpg",
+      "likes_count": 3300000,
+      "comment_count": 5781,
+      "play_count": 27600000,
+      "share_count": 52600,
+      "scraped_at": "2026-02-19 18:07:50"
+    },
+    {
+      "video_id": "7598711019090775351",
+      "author": "jennadewan",
+      "author_avatar_local": "images/avatars/avatar_377b7375c03c.jpg",
+      "cover_local": "images/covers/cover_7598711019090775351_7dbdd90236f1.jpg",
       "likes_count": 2000000,
-      "comment_count": 38400,
-      "play_count": 73600000,
-      "share_count": 183100,
-      "scraped_at": "2026-02-13 08:54:00"
+      "comment_count": 3835,
+      "play_count": 26600000,
+      "share_count": 34400,
+      "scraped_at": "2026-02-19 18:07:51"
     },
     {
-      "video_id": "7583069150046670093",
-      "author": "realjayllnn",
-      "author_avatar_local": "images/avatars/avatar_eaca8e7e0b99.jpg",
-      "cover_local": "images/covers/cover_7583069150046670093_71649c91e57a.jpg",
-      "likes_count": 2500000,
-      "comment_count": 6864,
-      "play_count": 78900000,
-      "share_count": 89500,
-      "scraped_at": "2026-02-13 08:54:00"
+      "video_id": "7589372058899942678",
+      "author": "movies_mafia0",
+      "author_avatar_local": "images/avatars/avatar_c040f3954eb8.jpg",
+      "cover_local": "images/covers/cover_7589372058899942678_628e1b803d8d.jpg",
+      "likes_count": 609800,
+      "comment_count": 3639,
+      "play_count": 27600000,
+      "share_count": 8879,
+      "scraped_at": "2026-02-19 18:07:52"
     },
     {
-      "video_id": "7592882956071456013",
-      "author": "vitakari",
-      "author_avatar_local": "images/avatars/avatar_6bb69c3592b9.jpg",
-      "cover_local": "images/covers/cover_7592882956071456013_582f9665968a.jpg",
-      "likes_count": 2300000,
-      "comment_count": 12100,
-      "play_count": 79800000,
-      "share_count": 329600,
-      "scraped_at": "2026-02-13 08:54:01"
+      "video_id": "7606183604586122527",
+      "author": "antoinesallis",
+      "author_avatar_local": "images/avatars/avatar_d653ba2c0b30.jpg",
+      "cover_local": "images/covers/cover_7606183604586122527_e804f6ced63b.jpg",
+      "likes_count": 4100000,
+      "comment_count": 31100,
+      "play_count": 32200000,
+      "share_count": 2200000,
+      "scraped_at": "2026-02-19 18:07:53"
     },
     {
-      "video_id": "7589993300514360607",
-      "author": "luck20027",
-      "author_avatar_local": "images/avatars/avatar_69055eb9ba0e.jpg",
-      "cover_local": "images/covers/cover_7589993300514360607_43f681d4cc83.jpg",
-      "likes_count": 958400,
-      "comment_count": 5288,
-      "play_count": 80400000,
-      "share_count": 87800,
-      "scraped_at": "2026-02-13 08:54:02"
+      "video_id": "7595242738610703630",
+      "author": "uscfac2019",
+      "author_avatar_local": "images/avatars/avatar_df31a30c1d55.jpg",
+      "cover_local": "images/covers/cover_7595242738610703630_22e44b2dbb44.jpg",
+      "likes_count": 1400000,
+      "comment_count": 7948,
+      "play_count": 27300000,
+      "share_count": 17100,
+      "scraped_at": "2026-02-19 18:07:54"
     },
     {
-      "video_id": "7579348083851545876",
-      "author": "milaadkmagic",
-      "author_avatar_local": "images/avatars/avatar_2bed493eeb64.jpg",
-      "cover_local": "images/covers/cover_7579348083851545876_83a6e6266dad.jpg",
-      "likes_count": 598200,
-      "comment_count": 2620,
-      "play_count": 73900000,
-      "share_count": 7601,
-      "scraped_at": "2026-02-13 08:54:03"
-    },
-    {
-      "video_id": "7583604735698160926",
-      "author": "thesmilyfam",
-      "author_avatar_local": "images/avatars/avatar_585bbaebb877.jpg",
-      "cover_local": "images/covers/cover_7583604735698160926_7a72b4c48d84.jpg",
-      "likes_count": 1900000,
-      "comment_count": 1520,
-      "play_count": 77300000,
-      "share_count": 11100,
-      "scraped_at": "2026-02-13 08:54:04"
+      "video_id": "7605199092075089183",
+      "author": "dersen56",
+      "author_avatar_local": "images/avatars/avatar_ecfc79c96428.jpg",
+      "cover_local": "images/covers/cover_7605199092075089183_acce1930f259.jpg",
+      "likes_count": 613500,
+      "comment_count": 1744,
+      "play_count": 32900000,
+      "share_count": 12700,
+      "scraped_at": "2026-02-19 18:07:54"
     }
   ]
 }
